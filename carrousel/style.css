@@ -1,0 +1,15 @@
+#carrousel {
+    height: 240px;
+    width: 240px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#counter-value {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: double black 2px;
+    padding: 5px;
+}
