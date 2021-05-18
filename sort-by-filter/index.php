@@ -12,11 +12,11 @@
     <body>
         
         <div class="row">
-            <button>all</button>
-            <button>summer</button>
-            <button>autumn</button>
-            <button>winter</button>
-            <button>spring</button>
+            <button id="all">all</button>
+            <button id="summer">summer</button>
+            <button id="autumn">autumn</button>
+            <button id="spring">winter</button>
+            <button id="winter">spring</button>
         </div>
 
         <div class="row">
