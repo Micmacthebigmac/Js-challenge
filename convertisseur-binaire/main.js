@@ -9,6 +9,4 @@ convert.addEventListener('click', function() {
         stringConverted = stringForm[index].charCodeAt(0).toString(2);
         console.log(stringConverted);
     }
-/*     let stringFinish = stringConverted.join();
-    console.log(stringFinish); */
 });
