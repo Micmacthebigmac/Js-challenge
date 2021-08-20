@@ -1,14 +1,12 @@
 let orientation = (screen.orientation || {}).type || screen.mozOrientation || screen.msOrientation;
-// TEST //
 
-const scrollContainer = document.querySelector("body");
+const scrollContainer = document.querySelector("main");
 
 scrollContainer.addEventListener("wheel", (evt) => {
     evt.preventDefault();
     scrollContainer.scrollLeft += evt.deltaY;
 });
 
-// ----------------------------- //
 document.addEventListener("DOMContentLoaded", (event) => {
     window.addEventListener("resize", detectOrientation) ;
     detectOrientation() ;

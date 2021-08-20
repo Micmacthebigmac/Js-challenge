@@ -1,11 +1,10 @@
 body{
-    width: 2000px;
-    height: 1000px;
     margin:0;
     padding:0;
     background-color: black;
     color:white;
-    overflow-x: hidden;
+    overflow-y: hidden;
+    overflow-x: auto;
   }
   
   #rotateScreen{
@@ -18,3 +17,9 @@ body{
   #displayContent{
     display: none;
   }
+
+.block {
+  width: 2000px;
+  height: 500px;
+  background-color: rgb(184, 21, 21);
+}
